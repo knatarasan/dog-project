@@ -14488,6 +14488,7 @@ test_{network} = bottleneck_features['test']</code></pre>
 <li>Loaded the model with best validation weights</li>
 <li>Tested model for accuracy</li>
 </ol>
+<p>Xception architecture has Entry,Middle and Exit flows. Data first goes through entry flow then middle where it is repeated eight times  and finaly goes through exit. All convolution and separableConvolution layers are followed by batch normalization.  Also default input size 299x299 helped for this case</p>
 
 </div>
 </div>
